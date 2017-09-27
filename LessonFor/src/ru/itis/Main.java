@@ -1,7 +1,7 @@
 package ru.itis;
 import java.util.Scanner;
 
-
+// Молодец, но надо что-нибудь исправить.
 public class Main {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
