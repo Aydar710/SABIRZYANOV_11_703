@@ -8,10 +8,13 @@ public class Main {
 
         int a = in.nextInt();
         int b = in.nextInt();
-        int i = a;
-        while (i <= b) {
+//        while (i <= b) {
+//            System.out.print(i + " ");
+//            i++;
+//        }
+        for(int i = a; i <=b; i++){
             System.out.print(i + " ");
-            i++;
         }
     }
+
 }

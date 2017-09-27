@@ -1,0 +1,21 @@
+[1mdiff --git a/LessonFor/src/ru/itis/Main.java b/LessonFor/src/ru/itis/Main.java[m
+[1mindex ee7c15d..0a92266 100644[m
+[1m--- a/LessonFor/src/ru/itis/Main.java[m
+[1m+++ b/LessonFor/src/ru/itis/Main.java[m
+[36m@@ -8,10 +8,13 @@[m [mpublic class Main {[m
+ [m
+         int a = in.nextInt();[m
+         int b = in.nextInt();[m
+[31m-        int i = a;[m
+[31m-        while (i <= b) {[m
+[32m+[m[32m//        while (i <= b) {[m
+[32m+[m[32m//            System.out.print(i + " ");[m
+[32m+[m[32m//            i++;[m
+[32m+[m[32m//        }[m
+[32m+[m[32m        for(int i = a; i <=b; i++){[m
+             System.out.print(i + " ");[m
+[31m-            i++;[m
+         }[m
+     }[m
+[32m+[m
+ }[m
