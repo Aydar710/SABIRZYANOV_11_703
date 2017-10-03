@@ -13,6 +13,7 @@ public class Task_10_v {
             fact_nechet = fact_nechet * ((2 * k - 1));
             fact_chet = fact_chet * 2 * k;
             s = (s + (Math.pow(x, 2*k)* fact_nechet)) / fact_chet;
+          //  те же замечания: степень х, быстрый рост факториалов, ввод n
         }
         System.out.println(s);
     }
