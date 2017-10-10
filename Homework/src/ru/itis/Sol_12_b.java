@@ -9,7 +9,7 @@ public class Sol_12_b {
 
     public static void main(String[] args) {
         for(int n = 1; t >= eps; n++){
-            t *= ( x * x) / ((2*(double)n) * (2*(double)n + 1));
+            t *= ( x * x) / ((2*(double)n) * (2*(double)n + 1));  // неверная логика
             sum += p * t;
             p = -p;
         }
