@@ -9,8 +9,8 @@ public class Sol_12_g {
 
     public static void main(String[] args) {
         for(int n = 2; t >= eps; n++){
-            t *= (x * x) / (2 * (double)n);
-            sum += p * t;
+            t *= (x * x) / (2 * (double)n); // неверно считается факториал
+            sum += p * t;            // неверная логика
             p = -p;
         }
         System.out.println(sum);
