@@ -21,7 +21,7 @@ public class Sol_12_v {
 
             for (int n = 2; t >= eps; n++) {
                 t *= x / ((double) n / ((double) n - 1));
-                sum += t * p;
+                sum += t * p;        // неверная логика
                 p = -p;
             }
             System.out.println(sum + x);
