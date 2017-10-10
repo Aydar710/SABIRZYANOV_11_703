@@ -1,4 +1,4 @@
-package ru.itis;
+package ru.itis;   // Какая задача?
 
 public class Main {
     static final double P = 3.1415926;
