@@ -1,6 +1,6 @@
 package ru.itis;
 import java.util.Scanner;
-public class Main {
+public class Main2 {
 
 
     public static void main(String[] args) {
@@ -9,7 +9,7 @@ public class Main {
         double r = 4/3;
         int c = 2;
         for (int k = 2; Math.abs(r - (P / 2)) >= eps; k++){
-            r *= ((2*k) / (2*k - 1)) * ((2*k) / (2*k + 1) );
+            r *= ((2*k) / (2*k - 1)) * ((2*k) / (2*k + 1) );// одни нули же! Почему присылаете неработающую программу?
             c++;
         }
         System.out.println(c);
