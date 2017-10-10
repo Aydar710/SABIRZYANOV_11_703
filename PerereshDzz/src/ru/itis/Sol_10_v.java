@@ -1,6 +1,6 @@
 package ru.itis;
 import java.util.Scanner;
-// Решение 10 в
+// Решение 10 в .
 public class Sol_10_v {
 
 
