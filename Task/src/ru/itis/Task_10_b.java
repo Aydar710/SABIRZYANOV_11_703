@@ -3,8 +3,8 @@ package ru.itis;
 public class Task_10_b {
     static double s = 0;  // Нет значения при к = 0
     static int znak = 1;
-    static int x = 3;  // Взял произвольно // Лучше вводить
-    static int n = 4;  //Лучше вводить
+    static int x = 1;  // Взял произвольно // Лучше вводить
+    static int n = 1;  //Лучше вводить
     static int k = 0;
     static double sum_for_k_raven_1 = (-1 * Math.pow(x, 5)) / 10;
     static int fact = 0;
@@ -19,5 +19,4 @@ public class Task_10_b {
         s = s + x + sum_for_k_raven_1;
         System.out.println(s);
     }
-
 }
