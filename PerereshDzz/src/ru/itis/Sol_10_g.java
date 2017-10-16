@@ -20,10 +20,5 @@ public class Sol_10_g {
         }
         System.out.println(sum);
 
-
-
-
-
-
     }
 }
