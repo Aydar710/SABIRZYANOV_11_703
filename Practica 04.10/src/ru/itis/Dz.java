@@ -14,7 +14,7 @@ public class Dz {
             mult =  mult * ((4 * i*i) / (4 * i*i - 1));
             if (Math.abs(mult - P / 2) <= E){
                 l = i;
-                break;
+                break; // кто разрешил?
             }
         }
         System.out.println(l);

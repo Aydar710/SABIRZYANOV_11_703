@@ -9,7 +9,7 @@ public class Sol_12_a {
         double t = x;
         double sum = x;
         for (int n = 2; t >= eps; n++){
-            t *= (double)x / (double)n;
+            t *= (double)x / (double)n;      // неверная логика
             sum += t;
         }
         System.out.println(sum + 1);

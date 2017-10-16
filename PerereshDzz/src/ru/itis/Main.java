@@ -16,7 +16,7 @@ static double sum = 0;
          double t = x;
 
         for (int k = 1; k <= n; k++){
-            t = (t * (x * x)) / (k * (2 * k + 1));
+            t = (t * (x * x)) / (k * (2 * k + 1));  //в знаменателе накапливаете лишний факториал
             sum +=  p *t;
             p = -p;
         }

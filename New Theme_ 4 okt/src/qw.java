@@ -1,4 +1,4 @@
-public class qw {
+public class qw {   //Какая задача?
     static double sum = 2, eps = 0.001, t = 2;
     static int x = 2, n = 1;
 
