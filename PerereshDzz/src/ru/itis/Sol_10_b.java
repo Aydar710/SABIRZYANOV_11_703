@@ -13,7 +13,7 @@ public class Sol_10_b {
         int n = in.nextInt();
         double t = x - 0.1;
 
-        for(int k = 2; k <= n; k++){  // если объявить Х типа int , то в ответе получаетя ноль
+        for(int k = 2; k <= n; k++){
             t *= (x * x * x * x) / ((2 * (double)k -1) * (2 * (double)k) * (4 * (double)k + 1));
             sum = sum + (t * p);
             p = -p;

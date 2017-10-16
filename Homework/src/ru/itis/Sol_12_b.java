@@ -12,8 +12,8 @@ public class Sol_12_b {
         for(int n = 1; t >= eps; n++){
             sum += p * t; // поменял местами 2 строки. Проверить использовать изменть!!!
             t *= ( x * x) / ((2*n) * (2*n + 1));
-            t *= ( x * x) / ((2*(double)n) * (2*(double)n + 1));  // неверная логика
             sum += p * t;
+            t *= ( x * x) / ((2*(double)n) * (2*(double)n + 1));
             p = -p;
         }
         System.out.println(sum);

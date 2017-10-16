@@ -5,12 +5,12 @@ public class Sol_12_g {
     static Scanner in = new Scanner(System.in);
     static int p = 1;
     static double x = in.nextDouble();
-    static double eps = 0.0000001, t =  (x * x) / 2, sum = 1 - ((x * x) / 2);
+    static double eps = 0.00001, t = 1, sum = 0;
 
     public static void main(String[] args) {
-        for(int n = 2; t >= eps; n++){
-            t *= (x * x) / (2 * (double)n); // неверно считается факториал
-            sum += p * t;            // неверная логика
+        for(int n = 1; t >= eps; n++){
+            sum += p * t;
+            t *= (x * x) / (2 * (double)n);
             p = -p;
         }
         System.out.println(sum);
