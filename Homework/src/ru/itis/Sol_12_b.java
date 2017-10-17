@@ -11,8 +11,6 @@ public class Sol_12_b {
     public static void main(String[] args) {
         for(int n = 1; t >= eps; n++){
             sum += p * t; // поменял местами 2 строки. Проверить использовать изменть!!!
-            t *= ( x * x) / ((2*n) * (2*n + 1));
-            sum += p * t;
             t *= ( x * x) / ((2*(double)n) * (2*(double)n + 1));
             p = -p;
         }

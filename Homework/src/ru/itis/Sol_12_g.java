@@ -10,7 +10,7 @@ public class Sol_12_g {
     public static void main(String[] args) {
         for(int n = 1; t >= eps; n++){
             sum += p * t;
-            t *= (x * x) / (2 * (double)n);
+            t *= (x * x) / (2 * (double)n * (2 * (double)(n - 1)));
             p = -p;
         }
         System.out.println(sum);
