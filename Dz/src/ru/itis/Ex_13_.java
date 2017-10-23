@@ -1,4 +1,4 @@
-package ru.itis;
+package ru.itis;//+
 
 // эта задача находится в папке "Задачи" в диске
 import java.util.Scanner;
