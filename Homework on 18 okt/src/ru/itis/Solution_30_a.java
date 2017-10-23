@@ -1,4 +1,4 @@
-package ru.itis;
+package ru.itis;//+
 // решение 30 а
 public class Solution_30_a {
 
