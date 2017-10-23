@@ -1,4 +1,4 @@
-package ru.itis;
+package ru.itis;//-
 
 import java.util.Scanner;
 
@@ -17,7 +17,7 @@ public class Solution_28 {
 
         as = a;
         bs = b;
-        while (b <= eps){
+        while (b <= eps){//?????
             a = as * (1.0 + bs / 2.0);
             b = bs * bs + (3.0 + bs);
             as = a;
