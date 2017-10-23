@@ -1,4 +1,4 @@
-package ru.itis;
+package ru.itis;//+
 // Решение 32 б
 public class Solution_32_b {
     public static void main(String[] args) {
