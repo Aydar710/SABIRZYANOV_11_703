@@ -1,4 +1,4 @@
-package ru.itis;
+package ru.itis;//-
 import java.util.Scanner;
 // решение 10 Б стр 22
 
@@ -14,7 +14,7 @@ public class Sol_10_b {
         double t = x - 0.1;
 
         for(int k = 2; k <= n; k++){
-            t *= (x * x * x * x) / ((2 * (double)k -1) * (2 * (double)k) * (4 * (double)k + 1));
+            t *= (x * x * x * x) / ((2 * (double)k -1) * (2 * (double)k) * (4 * (double)k + 1));//то же самое
             sum = sum + (t * p);
             p = -p;
         }
