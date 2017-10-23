@@ -1,4 +1,4 @@
-package ru.itis;
+package ru.itis;//+
 // эта задача находится в папке "Задачи" в диске
 import java.util.Scanner;
 
@@ -28,4 +28,4 @@ public class Ex_15_ {
         System.out.println(m);
     }
 }
-
+//очень сложное решение
