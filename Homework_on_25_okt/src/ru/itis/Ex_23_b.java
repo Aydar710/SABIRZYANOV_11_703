@@ -1,4 +1,4 @@
-package ru.itis;
+package ru.itis;//что за задача?
 // 23 б
 public class Ex_23_b {
     static double x[] = {1.54, 2.25, 3.14, 4.3, 5, 5.5};
