@@ -1,4 +1,4 @@
-package ru.itis;
+package ru.itis;//+-
 
 import java.util.Scanner;
 
@@ -15,7 +15,7 @@ public class Main {
         int xsss = x1 / 2;
         int ys = x1;
 
-        int xss = xsss + y1 + x0, xs = xss + ys + x1;
+        int xss = xsss + y1 + x0, xs = xss + ys + x1;//что-то опять намудрили...
         int yss = xsss + y1, y4 = xss + ys;
 
         int x = xs + 0 * xss + yss + xsss;   // = x5
