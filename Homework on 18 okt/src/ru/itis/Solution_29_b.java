@@ -1,4 +1,4 @@
-package ru.itis;
+package ru.itis;//+
 
 // Решение 29 б
 public class Solution_29_b {
@@ -12,7 +12,7 @@ public class Solution_29_b {
         xs = x;
         while (Math.abs(x - xOld) >= eps) {
             x = Math.cos(xs);
-            xOld = xs;
+            xOld = xs; //зачем вам эта переменная?
             xs = x;
             n++;
         }
