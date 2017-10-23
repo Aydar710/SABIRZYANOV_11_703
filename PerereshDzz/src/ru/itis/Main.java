@@ -1,4 +1,4 @@
-package ru.itis;
+package ru.itis;//-
 
 import java.util.Scanner;
 
@@ -17,7 +17,8 @@ public class Main {
 
          for (int k = 1; k <= n; k++){
              sum += t;
-             t *= (double)p * (((double)x * (double)x) / ((double)k * (2 * (double)k + 1)));
+             t *= (double)p * (((double)x * (double)x) / ((double)k * (2 * (double)k + 1)));//зачем-то навтыкали кучу "даблов"
+                                                                                //а формула неверная
              p = -p;
          }
         System.out.println(sum + t);
