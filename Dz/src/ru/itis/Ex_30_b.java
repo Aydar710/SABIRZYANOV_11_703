@@ -1,4 +1,4 @@
-package ru.itis;
+package ru.itis;//-
 
 import java.util.Scanner;
 
@@ -17,7 +17,7 @@ static Scanner in = new Scanner(System.in);
         x0 = xn;
         while (Math.abs(xn - x0) >= eps) {
             xn = x0 - (2 * Math.sin(x0 / 2) - x) / (Math.cos(x0 / 2) - 1);
-            x0 = xn;
+            x0 = xn;  //вот вы их и подравняли...
         }
         System.out.println(xn);
     }
