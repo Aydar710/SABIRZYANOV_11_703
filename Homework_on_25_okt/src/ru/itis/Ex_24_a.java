@@ -1,4 +1,4 @@
-package ru.itis;
+package ru.itis;//я не задавала этих задач!
 
 import java.util.Scanner;
 
