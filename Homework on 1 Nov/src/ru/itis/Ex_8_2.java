@@ -1,4 +1,4 @@
-package ru.itis;
+package ru.itis;//-
 
 import java.util.Random;
 
@@ -33,7 +33,7 @@ public class Ex_8_2 {
                 b2[i] = 0;
         }
         for (int i = 0; i < b2.length; i++){
-            if (b1[i] != b2[i])
+            if (b1[i] != b2[i])  //это неверно
                 n++;
         }
      if (n == 0)
