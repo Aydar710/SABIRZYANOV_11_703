@@ -13,6 +13,6 @@ public class Ex_1 {
 
             }
         }
-        System.out.println(n);
+        System.out.println(n);//сам минимальный вы, похоже, не считаете
     }
 }
