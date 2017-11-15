@@ -1,4 +1,4 @@
-package OOP_With_Sidikov;
+package Matrix;
 
 import java.util.Random;
 

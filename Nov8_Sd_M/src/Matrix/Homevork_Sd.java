@@ -1,6 +1,5 @@
-package OOP_With_Sidikov;
+package Matrix;
 //  Первая задачка Сидикова
-import java.util.Arrays;
 import java.util.Random;
 import java.util.Scanner;
 

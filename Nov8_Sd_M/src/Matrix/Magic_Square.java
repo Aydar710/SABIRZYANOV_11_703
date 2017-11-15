@@ -1,4 +1,4 @@
-package OOP_With_Sidikov;
+package Matrix;
 
 import java.util.Random;
 
@@ -44,8 +44,8 @@ public class Magic_Square {
         if (sum != t)
             f = false;
         t = 0;
-        for (int i = arr.length - 1; i >= 0 && f; i--){
-            for (int j = 0; j < arr.length; j++){
+        for (int i = arr.length - 1; i >= 0 && f; i--) {
+            for (int j = 0; j < arr.length; j++) {
                 if (j == i)
                     t += arr[i][j];
             }
