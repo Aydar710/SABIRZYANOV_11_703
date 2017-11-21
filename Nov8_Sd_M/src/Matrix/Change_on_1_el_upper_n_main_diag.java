@@ -2,9 +2,9 @@ package Matrix;
 
 import java.util.Random;
 
-public class Change_on_1_el_upper_n_main_diag {
+public class Change_on_1_el_upper_n_main_diag {   //bad classname
     public static void main(String[] args) {
-        Homevork_Sd sd = new Homevork_Sd();
+        Homevork_Sd sd = new Homevork_Sd();  //!!!!!!
         Random r = new Random();
         int arr[][] = new int[5][5];
 
