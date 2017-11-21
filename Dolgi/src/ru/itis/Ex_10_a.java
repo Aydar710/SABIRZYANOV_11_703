@@ -1,4 +1,4 @@
-package ru.itis;
+package ru.itis;//-
 
 import java.util.Scanner;
 
@@ -14,7 +14,7 @@ public class Ex_10_a {
         int p = -1;
         double sum = x;
         while (k <= n){
-            sum += (double)p * ((x * x) / ((double)k * (2 * k + 1)));
+            sum += (double)p * ((x * x) / ((double)k * (2 * k + 1)));  //incorrect formula
             k++;
             p = -p;
         }
