@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import java.util.Scanner;//-
 
 public class Ex_9_g {
     public static void main(String[] args) {
@@ -10,7 +10,7 @@ public class Ex_9_g {
 
 
         while (m <= n) {
-            sum += 1 / ((2 * m + 1) * 9);
+            sum += 1 / ((2 * m + 1) * 9); //incorrect formula
             m++;
         }
         System.out.println(sum);
