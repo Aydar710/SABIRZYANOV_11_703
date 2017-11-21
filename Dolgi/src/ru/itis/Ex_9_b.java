@@ -1,4 +1,4 @@
-package ru.itis;
+package ru.itis;//-
 import java.util.Scanner;
 public class Ex_9_b {
     static Scanner in = new Scanner(System.in);
@@ -9,7 +9,7 @@ public class Ex_9_b {
         System.out.println("Введите n");
          int n = in.nextInt();
          while(m <= n){
-             sum += ((m-1) * (m-1)) / ((2.0 * m) * (2.0 * m - 1));
+             sum += ((m-1) * (m-1)) / ((2.0 * m) * (2.0 * m - 1));//incorrect formula
              m++;
          }
         System.out.println(sum);
