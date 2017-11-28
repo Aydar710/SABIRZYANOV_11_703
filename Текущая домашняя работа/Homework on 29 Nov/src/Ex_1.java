@@ -1,4 +1,4 @@
-public class Ex_1 {
+public class Ex_1 { //-
     public static void main(String[] args) {
         int a[][] = new int[4][4];
         for (int i = 3; i >= 0; i--) {
@@ -18,7 +18,7 @@ public class Ex_1 {
         for (int i = 0; i < a.length; i++){
             if (b[0] <= a[i][0]){
                 for (int k = 0; k < a[i].length; k++){
-                    a[i][k] = b[k];
+                    a[i][k] = b[k];           //I did not mean to replace the row of the matrix, but to add
                 }
                 break;
             }
