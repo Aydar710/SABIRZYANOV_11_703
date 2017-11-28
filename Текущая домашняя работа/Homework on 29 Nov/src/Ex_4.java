@@ -1,4 +1,4 @@
-public class Ex_4 {
+public class Ex_4 {//?
     public static void main(String[] args) {
         int a[][] = {{7, 2, 3}, {4, 3, 4}, {3, 4, 3}};
         for (int i = 0; i < a.length; i++) {
@@ -12,7 +12,8 @@ public class Ex_4 {
         for (int i = 0; i < a.length; i++) {
             for (int j = 0; j < a.length && !m; j++) {
                 if (f && a[i][j] != a[j][i] && i != j)
-                    m = true;
+                    m = true;                         //the same
+
                 else
                     f = true;
                 for (int k = 0; k < a[i].length && f ; k++) {
