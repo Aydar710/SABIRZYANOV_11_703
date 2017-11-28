@@ -30,5 +30,5 @@ public class Ex_15_1 {
             c = 1;
         }
         System.out.println(s + "  " + t);
-    }
+    }                        //strange algorithm
 }

@@ -1,4 +1,4 @@
-package ru.itis;
+package ru.itis;//+-
 
 public class Ex_22_3 {
 
@@ -14,7 +14,8 @@ public class Ex_22_3 {
             }
         }
         if (f)
-            System.out.println("По возрастанию");
+            System.out.println("По возрастанию");    
+        //here should be else
         f = true;
         for (int i = 0; i < a.length - 1 && f; i++) {
             if (a[i] < a[i + 1]){
@@ -23,6 +24,7 @@ public class Ex_22_3 {
         }}
         if (f)
             System.out.println("По убыванию");
+        //here should be else
         if (c == 2)
             System.out.println("Не упорядочен");
     }

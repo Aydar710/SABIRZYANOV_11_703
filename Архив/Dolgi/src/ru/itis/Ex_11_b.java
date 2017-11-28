@@ -1,4 +1,4 @@
-package ru.itis;
+package ru.itis;//-
 import java.util.Scanner;
 
 public class Ex_11_b {
@@ -9,7 +9,7 @@ public class Ex_11_b {
         int n = in.nextInt();
         double sum = 0;
         for (int k = 1; k <= n + 1 ; k++) // не получается взять k равным нулю
-            sum += Math.cos((double) k) / Math.sin((double)k);
+            sum += Math.cos((double) k) / Math.sin((double)k);   //where multiplication?
         System.out.println(sum);
     }
 

@@ -41,7 +41,7 @@ public class Vector2D {
     public void mult2(Vector2D a, double b) {
         a.a = a.a * b;
         a.b = a.b * b;
-        System.out.println(a.a + " " + a.b);
+        System.out.println(a.a + " " + a.b);//bad idea
     }
 
     @Override
