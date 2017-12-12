@@ -1,6 +1,6 @@
 public class Ex_226 {
     public static void main(String[] args) {
-        String st[] = {"C", "D", "F", "E", "B", "A"};
+        String st[] = {"C", "D", "F", "E", "B", "A"}; //why only one letter?
         sort(st);
         for (int i = 0; i < st.length; i++){
             System.out.print(st[i] + " ");
