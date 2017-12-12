@@ -5,7 +5,7 @@ public class Ex_50 {
         boolean f = true;
         if (st1.length() == st2.length()) {
             for (int i = 0; i < st1.length() && f; i++) {
-                if ((st1.toLowerCase()).charAt(i) == (st1.toLowerCase()).charAt(i))
+                if ((st1.toLowerCase()).charAt(i) == (st1.toLowerCase()).charAt(i)) //this is redundant
                     f = true;
                 else
                     f = false;
