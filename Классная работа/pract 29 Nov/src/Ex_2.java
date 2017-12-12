@@ -1,8 +1,8 @@
-public class Ex_2 {
+public class Ex_2 {//-
     public static void main(String[] args) {
         int min = 0;
         String n;
-        int arr[] = {54055, 26656, 4654, 86565, 165465, 551564646};
+        int arr[] = {54055, 26656, 4654, 86565, 165465, 551564646};//was meant the number of digits in the number
         for (int i = 0; i < arr.length; i++){
             n = String.valueOf(arr[i]);
             min = n.charAt(0);
